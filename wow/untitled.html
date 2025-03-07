@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一家人就要团团圆圆</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .gallery {
+            width: 80%;
+            margin: auto;
+        }
+        .main-image img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .thumbnails {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .thumbnail {
+            width: 30%;
+        }
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="main-image">
+            <img src="main.png" alt="大图片">
+        </div>
+        <div class="thumbnails">
+            <div class="thumbnail">
+                <img src="1.png" alt="小图片1">
+                <p>图片1描述</p>
+            </div>
+            <div class="thumbnail">
+                <img src="2.png" alt="小图片2">
+                <p>图片2描述</p>
+            </div>
+            <div class="thumbnail">
+                <img src="3.png" alt="小图片3">
+                <p>图片3描述</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
